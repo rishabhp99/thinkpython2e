@@ -29,3 +29,17 @@ def print_spam():
 
 
 do_twice(print_spam)
+
+# 2.
+
+
+def do_twice(f, val):
+    f(val)
+    f(val)
+
+
+def print_value(val):
+    print(val)
+
+
+do_twice(print_value, "42")
